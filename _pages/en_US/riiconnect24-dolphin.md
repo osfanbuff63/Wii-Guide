@@ -1,5 +1,5 @@
 ---
-title: "RiiConnect24"
+title: RiiConnect24 for Dolphin
 ---
 
 {% include toc title="Table of Contents" %}

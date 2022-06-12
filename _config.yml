@@ -5,7 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-minimal_mistakes_skin    : "nord"
+minimal_mistakes_skin    : "dark"
 
 # Site Settings
 locale                   : "en-US"
@@ -15,7 +15,7 @@ name                     : "RiiConnect24"
 description              : "Wii modding guide"
 url                      : "https://wii.guide" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 enforce_ssl              : "wii.guide"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "RiiConnect24/Wii-Guide" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : # true, false (default)
@@ -166,7 +166,7 @@ exclude: [
 keep_files:
   - .git
   - .svn
-encoding: "utf-8"
+encoding: "UTF-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md,txt"
 
 
@@ -187,7 +187,6 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
 
 
 # Sass/SCSS
@@ -199,18 +198,7 @@ sass:
 plugins:
   - jekyll-paginate-v2
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
   - jemoji
-
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate-v2
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-
 
 # Archives
 #  Type
@@ -505,7 +493,7 @@ defaults:
       permalink: /el_GR/index:output_ext
   - scope:
       path: "_pages/en_PT/home.md"
-      type: 
+      type:
     values:
       permalink: /en_PT/index:output_ext
   - scope:
